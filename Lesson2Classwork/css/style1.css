@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+    /* padding: 33% 33%; */
+    /* margin: 500px; */
+    padding-left: 33%;
+    /*отступ слева*/
+    padding-right: 33%;
+    /* внутренний отступ справа*/
+    color: white;
+    text-align: center;
+    /* горизонтальное выравнивание текстовых и строчных элементов (картинок, ссылок) - добавляем родительскому элементу */
+}
+
+a {
+    color: white;
+    /*цвет ссылки*/
+    text-decoration: none;
+    /*убираем подчеркивание*/
+    display: inline-block;
+    border: solid 2px white;
+    padding: 10px 30px;
+    /*добавляем внутренние отступы в ссылку*/
+    border-radius: 3px;
+    /*закругление углов*/
+    font-family: Tahoma;
+}
+
+h1,
+h2,
+a {
+    text-transform: uppercase;
+    font-weight: normal;
+    /*убираем жирность*/
+}
+
+p {
+    text-transform: uppercase;
+}
+
+div p {
+    text-transform: none;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+    /*убираем жирность*/
+    letter-spacing: 5px;
+}
+
+img {
+    margin-top: 50px;
+    /*внешний отступ от картинок*/
+}
+
+div div {
+    text-align: right;
+}

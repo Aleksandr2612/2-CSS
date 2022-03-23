@@ -1,0 +1,13 @@
+div {
+    width: 300px;
+    border: 2px solid red;
+    height: 450px;
+    background-image: url(../imgs/img2.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /*отмена повторения картинки*/
+    /* background-position: left bottom; */
+    /* background-position: 10px 30px; */
+    /*смещение в пикселях*/
+    background-size: 100%;
+}

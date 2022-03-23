@@ -1,0 +1,54 @@
+body {
+    font-family: times new roman, arial;
+    background-color: hsla(23, 84%, 36%, 0.197);
+}
+
+header {
+    background-image: url(./image/187170.webp);
+    /* background-position: 100% 100%; */
+    background-position: center top;
+    /* background-position: 40px 60px; */
+    /* background-size: 100%; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+footer {
+    background-image: url(./image/bgr.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+main {
+    width: 500px;
+    background-image: linear-gradient(to right, rgb(167, 167, 218), red);
+}
+
+a {
+    color: rgb(5, 114, 217);
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+p {
+    color: rgb(0, 8, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    letter-spacing: normal;
+    line-height: 40px;
+    font-family: georgia;
+}
+
+h1 {
+    color: aqua;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: tahoma;
+    border: red 2px solid;
+    padding-top: 10px;
+    padding: 30px;
+}

@@ -1,0 +1,16 @@
+body {
+    background-image: url(./img/ocean1.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 40%;
+    font-family: tahoma;
+    color: rgb(81, 69, 69);
+    padding-left: 30px;
+}
+
+h2 {
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.571), green);
+    padding: 10px;
+}
